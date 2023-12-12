@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1" >
+    <listeners>
+        <listener class-name="com.tutorialsninja.demo.customlisteners.CustomListeners"/>
+    </listeners>
+    <test name="Login Test" >
+        <classes>
+            <class name="com.tutorialsninja.demo.testsuite.TopMenuPageTest"/>
+            <class name="com.tutorialsninja.demo.testsuite.LaptopsAndNoteBooksPageTest"/>
+            <class name="com.tutorialsninja.demo.testsuite.DesktopPageTest"/>
+            <class name="com.tutorialsninja.demo.testsuite.MyAccountPageTest"/>
+
+        </classes>
+    </test>
+</suite>
